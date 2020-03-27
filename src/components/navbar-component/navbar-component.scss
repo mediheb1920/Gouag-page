@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+$width-xs : 576px ;
+$width-md : 768px ;
+$width-lg : 992px ;
+$width-xl : 1200px ;
+.navbar{
+    position: relative;
+    width: auto;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    top: 10px;
+    padding: 10px 0;
+    margin-left: 15px;
+    @media screen and (max-width : $width-md){
+        margin-left: 20px;
+    }
+    @media screen and (max-width : $width-lg){
+        margin-left: 10px;
+    }
+    
+    .Navbar-link{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        // align-items: flex-start;
+        text-decoration: none;
+        .item-link{
+            color: white;
+            padding: 10px 5px;
+            &:hover{
+                background-color: rgb(16, 207, 16);
+            }
+            cursor: pointer;
+            font-family: sans-serif , "Open Sans", Helvetica, Arial, sans-serif;  
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            
+
+        }
+        .item-link1{
+            color: rgb(48, 197, 35);
+            padding: 10px 5px;
+            &:hover{
+                background-color: rgb(16, 207, 16);
+                color: white;
+            }
+            font-family: sans-serif , "Open Sans", Helvetica, Arial, sans-serif;            ;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+    .Navbar-account{
+        margin-right: 25px;
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 999;
+        @media screen and (max-width : $width-md){
+            width: 55%;
+            justify-content: flex-end;
+        }
+        @media screen and (min-width : $width-md){
+            width: 35%;
+            justify-content: flex-end;
+        }
+        .SignIn{
+            color: white;
+            padding: 0 30px;
+            // font-size: 50px;
+            // font-weight: 10px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: bold;
+
+            &:hover{
+                
+                border: none;
+                background-color: rgb(16, 207, 16);
+                transition: 1ms;
+                border-radius: 5px;
+            }
+            cursor: pointer;
+        }
+        }
+        .joinFree{
+            color: white;
+            padding: 0 30px;
+            // font-size: 50px;
+            // font-weight: 10px;
+            border : 2px solid white ;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: bold;
+
+            &:hover{
+                border: none;
+                background-color: rgb(16, 207, 16);
+                transition: 1ms;
+                border-radius: 5px;
+            }
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .logo-content{
+            img{
+                width: 100px;
+                height: 100px;
+                
+            }
+            position: relative;
+            top: -18px;
+            left: 45px;
+            @media screen and (max-width : $width-md){
+                left: 5%;
+            }
+        }
+        .user-information{
+            display: flex;
+            .displayName{
+                color: white;
+                margin-right: 10px;
+                align-self: flex-start;
+                margin-top: 5px;
+            }
+
+    }
+        
+    }

@@ -1,0 +1,44 @@
+.checkout-page{
+    margin-top: 100px;
+    .all-content{
+        width : 65vw ;
+        height : auto ;
+        border : black 1px solid;
+        
+        margin : auto ;
+        display : flex ;
+        .face-one{
+            width : 75% ;
+            height: auto;
+            .header-one{
+                width: 100%;
+                display: flex;
+                padding: 10px;
+                border-bottom: .2px solid black;
+                justify-content: space-between;
+                padding: 20px;
+            }
+            
+        }
+        .face-two{
+            width: 25%;
+            height: auto;
+            background-color: #eeeeee;
+            padding-top: 20px;
+            .price-final{
+                width: 250px;
+                height: 150px;
+                margin-top: 10px;
+                background-color: white;
+                margin: auto;
+                .price1{
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

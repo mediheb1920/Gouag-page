@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap');
+$width-xs : 576px ;
+$width-md : 768px ;
+$width-lg : 992px ;
+$width-xl : 1200px ;
+ .acceuil{
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient( 110.2deg,  rgba(99,192,227,1) 5.3%, rgba(98,72,194,1) 100.2% );
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
+    .content-acceuil{
+        position: relative;
+        height: 100%;
+        width: 100vw;
+
+        .text-acceuil{
+            position: relative;
+            width: 40vw;
+            height: 100%;
+            top: 100px;
+            margin-left: 200px;
+            @media screen and (max-width : $width-md){
+                // left: 25px;
+                bottom: 50px;
+                top: 320px;
+                margin-left: 0;
+            }
+            @media screen and (max-width : $width-lg){
+                margin-left: 50px;
+            }
+            .title-text{
+                font-size: 48px;
+                font-family: 'Roboto Slab', serif;
+                color: white;
+                @media screen and (max-width : $width-md){
+                    font-size: 30px;
+                    text-align: center;
+                    width: 80%;
+                    
+                }
+            }
+            .span-text{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                color: white;
+                width: 350px;
+                @media screen and (max-width : $width-md){
+                    font-size: 18px;
+                    width: 80vw;
+                    text-align: center;
+                }
+                
+            }
+            .button-home{
+                background-color: #ff8d1a;
+                padding: 10px 20px;
+                color: white;
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                border: none;
+                font-weight: bold;
+                border-radius: 5px;
+                margin-top: 20px;
+                cursor: pointer;
+                @media screen and (max-width : $width-md){
+                    position: relative;
+                    // left: 20%;
+                    
+                    
+                    
+                }
+                
+
+            }
+            
+
+        }
+        .LogoAcceuil{
+            position: absolute;
+            bottom: 80px;
+            right: 150px;
+            width: 40vw;
+            height: 100%;
+            @media screen and (max-width : $width-md){
+                width: 80%;
+                right: auto;
+                left: 25px;
+                
+                
+            }
+            @media screen and (max-width : $width-lg){
+                left: none;
+                right: 100px;
+                bottom: -30px;
+            }
+            
+
+        }
+    }
+    @media screen and (max-width : $width-md){
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+.content-home{
+    width: 100vw;
+    display: grid;
+    // margin: auto;
+    @media screen and (max-width : $width-md){
+        margin: 0 10px ;
+        text-align: center;
+    }
+    .title-home{
+    margin: auto;
+    display: grid;
+    h1{
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+        .text-content{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        letter-spacing: 0.5px ;
+
+    }
+    }
+    
+}
+.card-home{
+    margin-top: 50px;
+    width: 50vw;
+    position: relative;
+    left: 25%;
+      
+    .card1{
+        height: 40vh;
+        background-color: #23acb4;
+        background-image: url("../../images/amoeba-2@2x.png");
+        padding-bottom: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+        
+        &:hover{
+            transform: scale(1.05);
+            
+        }
+
+    .card-body{
+        margin: auto;
+        .card-title{
+            text-align: center;
+            font-family: 'Roboto Slab', serif;
+            font-size: 26px;
+            font-weight: bolder;
+            color: white;
+            letter-spacing: 2px;
+        } 
+        .card-text{
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: white;
+            font-weight: lighter;
+        }
+        
+    
+}
+        .button1{
+            top: 15px;
+            margin: auto;
+            position: relative;
+            width: 50%;
+            text-align: center;
+            padding: 8px 8px;
+            color: white;
+            background-color: #ff8d1a;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+                
+            }
+            @media screen and (max-width : $width-lg){
+                height: 40vh;
+                
+            }
+    
+}
+    .card2{
+        height: 40vh;
+        background-color: #965acb;
+        background-image: url("../../images/amoeba-1@2x.png");
+        padding-bottom: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+        }
+        .card-body{
+            margin: auto;
+            .card-title{
+                text-align: center;
+                font-family: 'Roboto Slab', serif;
+                font-size: 26px;
+                font-weight: bolder;
+                color: white;
+                letter-spacing: 2px;
+            }
+            .card-text{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: white;
+            font-weight: lighter;
+            }
+        
+            
+            }
+            .button1{
+                top: 10px;
+                margin: auto;
+                position: relative;
+                width: 50%;
+                text-align: center;
+                padding: 8px 8px;
+                color: white;
+                background-color: #ff8d1a;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                    
+                }
+    }
+    .card3{
+        height: 40vh;
+        background-color: #486ae6;
+        background-image: url("../../images/amoeba-3.png");
+        padding-bottom: 30px;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.05);
+            
+        }
+        cursor: pointer;
+        .card-body{
+            margin: auto;
+            .card-title{
+                text-align: center;
+                font-family: 'Roboto Slab', serif;
+                font-size: 26px;
+                font-weight: bolder;
+                color: white;
+                letter-spacing: 2px;
+            }
+            .card-text{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                color: white;
+                font-weight: lighter;
+            }
+        
+            
+            }
+            .button1{
+                top: 10px;
+                margin: auto;
+                position: relative;
+                width: 50%;
+                text-align: center;
+                padding: 8px 8px;
+                color: white;
+                background-color: #ff8d1a;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                    
+                }
+                
+    }
+    margin-bottom: 150px ;
+
+    @media screen and (max-width : $width-md){
+        width: 80vw;
+        left: 2.5%;
+    }
+    @media screen and (max-width : $width-lg){
+        left: 0;
+        width: 100vw;
+    }
+    
+    
+
+}
+.sponsor-icons{
+    width: 100vw;
+    height: 850px;
+    background-image: url('../../images/bg-shape.svg');
+    background-color: #f4f9fa;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 60% 40%;
+    @media screen and (max-width : $width-md){
+        height: 600px;
+        grid-template-columns: none;  
+    }
+    @media screen and (max-width : $width-lg){
+        height: 600px;
+        grid-template-columns: none;  
+    }
+    .icons-spon-part{
+        margin-top: 100px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media screen and (max-width : $width-md){
+
+            
+        }
+        .sponsor-para{
+            font-size: 30px;
+            font-family: "Roboto Slab", "Open Sans", Helvetica, Arial, sans-serif;
+            font-weight: 300;
+        }
+
+    }
+}

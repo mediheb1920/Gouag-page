@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap');
+$width-xs : 576px ;
+$width-md : 768px ;
+$width-lg : 992px ;
+$width-xl : 1200px ;
+
+.page-signin{
+    background: rgb(140,89,192);
+    background: linear-gradient(90deg, rgba(140,89,192,1) 0%, rgba(78,90,200,1) 95%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    .Log-in-sign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 70%;
+        background-color: white;
+        padding: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        border-radius: 10px;
+        
+        .Log-in-title{
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: 'Roboto Slab', serif;
+
+        }
+        .form-SignIn{
+            display: flex;
+            flex-direction: column;
+            
+            .button-sign{
+                margin-top: 30px;
+            }
+            .button-sign-google{
+                margin-top: 20px;
+            }
+            .text{
+                margin-top: 10px;
+                text-align: center;
+            }
+            
+            
+        }
+        @media screen and (max-width : $width-xl){
+            width: 80%;
+            height: 60%;
+            padding: 50px;
+            
+        }
+}
+}

@@ -2,16 +2,39 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/mediheb1920/ihebhichri11-gmail.com.git",
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.45",
+    "@svgr/core": "^5.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.11.0",
+    "firebaseui": "^4.5.0",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-firebaseui": "^4.1.0",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-svg": "^11.0.13",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "reselect": "^4.0.0",
+    "typeface-roboto": "^0.0.75"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -30,5 +53,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.2.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "url-loader": "^3.0.0"
   }
 }
