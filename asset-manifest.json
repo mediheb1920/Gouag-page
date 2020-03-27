@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/mediheb1920/Gouag-page.git/static/css/main.9d9ef703.chunk.css",
+    "main.js": "/mediheb1920/Gouag-page.git/static/js/main.638b7361.chunk.js",
+    "main.js.map": "/mediheb1920/Gouag-page.git/static/js/main.638b7361.chunk.js.map",
+    "runtime-main.js": "/mediheb1920/Gouag-page.git/static/js/runtime-main.1271ce4e.js",
+    "runtime-main.js.map": "/mediheb1920/Gouag-page.git/static/js/runtime-main.1271ce4e.js.map",
+    "static/css/2.e225b4da.chunk.css": "/mediheb1920/Gouag-page.git/static/css/2.e225b4da.chunk.css",
+    "static/js/2.6581b631.chunk.js": "/mediheb1920/Gouag-page.git/static/js/2.6581b631.chunk.js",
+    "static/js/2.6581b631.chunk.js.map": "/mediheb1920/Gouag-page.git/static/js/2.6581b631.chunk.js.map",
+    "index.html": "/mediheb1920/Gouag-page.git/index.html",
+    "precache-manifest.1b7764a332c3cdde4e88142d437113e7.js": "/mediheb1920/Gouag-page.git/precache-manifest.1b7764a332c3cdde4e88142d437113e7.js",
+    "service-worker.js": "/mediheb1920/Gouag-page.git/service-worker.js",
+    "static/css/2.e225b4da.chunk.css.map": "/mediheb1920/Gouag-page.git/static/css/2.e225b4da.chunk.css.map",
+    "static/css/main.9d9ef703.chunk.css.map": "/mediheb1920/Gouag-page.git/static/css/main.9d9ef703.chunk.css.map",
+    "static/js/2.6581b631.chunk.js.LICENSE.txt": "/mediheb1920/Gouag-page.git/static/js/2.6581b631.chunk.js.LICENSE.txt",
+    "static/media/Controller.0e28b2ce.svg": "/mediheb1920/Gouag-page.git/static/media/Controller.0e28b2ce.svg",
+    "static/media/Credit-card.cd7a3f46.svg": "/mediheb1920/Gouag-page.git/static/media/Credit-card.cd7a3f46.svg",
+    "static/media/Delivery.5391c81b.svg": "/mediheb1920/Gouag-page.git/static/media/Delivery.5391c81b.svg",
+    "static/media/Gifts.dac66804.svg": "/mediheb1920/Gouag-page.git/static/media/Gifts.dac66804.svg",
+    "static/media/Gouha.png": "/mediheb1920/Gouag-page.git/static/media/Gouha.50290640.png",
+    "static/media/Quality.885347d8.svg": "/mediheb1920/Gouag-page.git/static/media/Quality.885347d8.svg",
+    "static/media/Shield.1219feab.svg": "/mediheb1920/Gouag-page.git/static/media/Shield.1219feab.svg",
+    "static/media/Spotify_Logo.png": "/mediheb1920/Gouag-page.git/static/media/Spotify_Logo.c9739105.png",
+    "static/media/acceuil-image.6499a752.svg": "/mediheb1920/Gouag-page.git/static/media/acceuil-image.6499a752.svg",
+    "static/media/page-acceuil.scss": "/mediheb1920/Gouag-page.git/static/media/bg-shape.d515ad02.svg",
+    "static/media/coins.9de670db.svg": "/mediheb1920/Gouag-page.git/static/media/coins.9de670db.svg",
+    "static/media/google-play.png": "/mediheb1920/Gouag-page.git/static/media/google-play.098fddce.png",
+    "static/media/netflix-logo-png-2562.png": "/mediheb1920/Gouag-page.git/static/media/netflix-logo-png-2562.2ea85d74.png",
+    "static/media/playstation-4.png": "/mediheb1920/Gouag-page.git/static/media/playstation-4.d5170e50.png",
+    "static/media/shop.ed4110d0.svg": "/mediheb1920/Gouag-page.git/static/media/shop.ed4110d0.svg",
+    "static/media/shopping-cart.3305f736.svg": "/mediheb1920/Gouag-page.git/static/media/shopping-cart.3305f736.svg",
+    "static/media/steam.png": "/mediheb1920/Gouag-page.git/static/media/steam.1c5b1a40.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1271ce4e.js",
+    "static/css/2.e225b4da.chunk.css",
+    "static/js/2.6581b631.chunk.js",
+    "static/css/main.9d9ef703.chunk.css",
+    "static/js/main.638b7361.chunk.js"
+  ]
+}
