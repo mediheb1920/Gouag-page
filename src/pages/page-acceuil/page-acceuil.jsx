@@ -80,7 +80,6 @@ class Acceuil extends Component {
                             <p className="card-text">Everything needed is available</p>
                         </div>
                             <a href="/pageMarket" className="button1">Shop Now</a>
-                    
                     </div>
                     
                 

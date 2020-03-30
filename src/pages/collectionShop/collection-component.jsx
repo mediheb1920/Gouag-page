@@ -6,7 +6,6 @@ import {selectCollection} from '../../redux/shop/shop-selectors'
 import TableProducts from './table-component'
 import  Total from './total'
 
-
 const CollectionPage = ({collection })=>{
     console.log(collection)
   

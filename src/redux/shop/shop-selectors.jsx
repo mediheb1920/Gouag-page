@@ -11,6 +11,10 @@ export const selectCartItems = createSelector(
     [selectShop],
     shop => shop.cartItems
   );
+  export const selectCartItemsName = createSelector(
+      [selectCartItems],
+      cartItems => cartItems.map((item) => (item.name))
+  )
 
 export const selectCartItemsTotal = createSelector(
     [selectCartItems],
