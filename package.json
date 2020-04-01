@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "1.0.0",
-  "main": "app.js",
   "private": true,
   "engines": {
     "node": "13.7.0",
@@ -35,7 +34,7 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
