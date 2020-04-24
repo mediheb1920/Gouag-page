@@ -44,7 +44,7 @@ class  Navbar extends Component{
             </div>
         <Hidden mdDown>
         <div className="Navbar-link">
-            <Link to='/' style={{ textDecoration: 'none' }}><span className="item-link1">&#9876;Discover</span></Link>
+            <Link to='/pageMarket' style={{ textDecoration: 'none' }}><span className="item-link1">&#9876;Discover</span></Link>
             <Link to='/' style={{ textDecoration: 'none' }}><span className="item-link">About US</span></Link>
             <Link to='/' style={{ textDecoration: 'none' }}><span className="item-link">Contact Us</span></Link>
         </div>
